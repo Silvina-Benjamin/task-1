@@ -1,4 +1,71 @@
+*{
+    margin: 0px 0px 0px 10px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
 header{
+    background-image: url(./img/hockey_1.jpg);
+    background-position: center;
+    background-size: cover;
+    height:200px;
+    margin: 10px;
+}
+
+/* .titulo{
+    display: inline;
+} */
+
+#logo{
+    width: 80px;
+    display: inline;
+    margin-top: 5px;
+    /*tengo que posicionar el logo a la izquierda del contenido de upcoming events*/
+}
+
+header h1{
+    margin: 20px;
+}
+
+
+a{
+    display: block;
+    padding: 10px 5px 5px 5px;
+    /*como hacer para que cambie el color del correspondiente a la pagina en la que estoy*/
+    margin: 10px;
+
+}
+
+
+section h3{
+
+    background-color: black;
+    color: white;
+    padding: 5px;
+    /*faltaria centrar*/
+}
+
+
+section>h4{
+font-style:normal;
+margin-top: 20px;
+padding-left: 10px;
+}
+
+section>p{
+    font-style: italic;
+    margin-top: 1px;
+    padding-left: 15px;
+
+}
+
+.parrafo-contact{
+    margin: 10px;
+}
+
+
+/* header{
     background-image: url(./img/hockey_1.jpg);
     background-position: center;
     background-size: cover;
@@ -9,4 +76,4 @@ header{
 }
 main>section>h3{
     background-color: cornflowerblue;
-}
+} */

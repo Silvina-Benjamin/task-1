@@ -1,0 +1,63 @@
+*{
+    margin: 0px 0px 0px 10px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#logo{
+    width: 80px;
+    border: 2px solid black;
+    display: inline;
+    margin-top: 5px;
+    /*tengo que posicionar el logo a la izquierda del contenido de upcoming events*/
+}
+
+header h1{
+    margin: 20px;
+}
+
+nav{
+
+    background-image: url(./img/design1_image1.jpg);
+    background-position: center;
+    background-size: cover;
+    height:200px;
+    margin: 10px;
+}
+
+nav>a{
+    display: inline;
+    text-decoration: none;
+    background-color:darkcyan;
+    color: black;
+    padding: 10px 5px 5px 5px;
+    /*como hacer para que cambie el color del correspondiente a la pagina en la que estoy*/
+    border: 2px solid black;
+    margin: 10px;
+
+}
+
+
+section h3{
+
+    border: 2px solid black;
+    padding: 5px;
+    /*faltaria centrar*/
+}
+
+
+section>h4{
+font-style:normal;
+margin-top: 20px;
+}
+
+section>p{
+    font-style: italic;
+    margin-top: 1px;
+
+}
+
+.parrafo-contact{
+    margin: 10px;
+}
