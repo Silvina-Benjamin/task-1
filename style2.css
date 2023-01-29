@@ -2,62 +2,111 @@
     margin: 0px 0px 0px 10px;
     padding: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
 
+.titulo{
+    margin: 0px;
 }
 
 #logo{
     width: 80px;
-    border: 2px solid black;
     display: inline;
     margin-top: 5px;
-    /*tengo que posicionar el logo a la izquierda del contenido de upcoming events*/
+    position: absolute;
+    top: 350px;
 }
 
 header h1{
-    margin: 20px;
+    margin: 10px 0px 5px 20px;
+    width: 85vw;
 }
 
 nav{
-
     background-image: url(./img/design1_image1.jpg);
     background-position: center;
     background-size: cover;
     height:200px;
-    margin: 10px;
+    width: 85vw;
+    margin: 0px;
 }
 
 nav>a{
     display: inline;
     text-decoration: none;
-    background-color:darkcyan;
-    color: black;
-    padding: 10px 5px 5px 5px;
-    /*como hacer para que cambie el color del correspondiente a la pagina en la que estoy*/
+    padding: 5px;
     border: 2px solid black;
     margin: 10px;
-
+    position: relative;
+    left: 80%;
+    bottom: 10px;
+    z-index: 1;
 }
 
+.boton{
+    background-color:rgb(24, 127, 245);
+    color: white; 
+}
+
+.boton-activo{
+    background-color: rgb(126, 188, 33);
+    color:white;
+}
 
 section h3{
-
     border: 2px solid black;
     padding: 5px;
-    /*faltaria centrar*/
+    text-align: center;
+    transform: translateY(250px);
+    width: 85vw;
 }
 
-
-section>h4{
-font-style:normal;
-margin-top: 20px;
+.home h4{
+    font-style:normal;
+    margin-top: 20px;
+    padding-left: 10px;
 }
 
-section>p{
+.home>p{
     font-style: italic;
     margin-top: 1px;
-
+    padding-left: 15px;
 }
 
-.parrafo-contact{
-    margin: 10px;
+#home{
+    transform: translateX(100px) translateY(50px);
+    width: 70vmax;
+}
+#about{
+    transform: translateX(100px) translateY(50px);
+    width: 70vmax;
+}
+#contact{
+    transform: translateX(100px) translateY(60px);
+    width: 70vmax;
+}
+
+.about h4{
+    font-style:normal;
+    margin-top: 20px;
+}
+
+.about p{
+    margin-top: 1px;
+    padding-left: 15px;
+    text-indent: 30px;
+}
+
+.contact p{
+    padding-left: 15px;
+    margin-top: 30px;
+    width: 50%;
+}
+    
+.contenido a{
+    padding-left: 15px;
+    margin-top: 30px;
+    text-decoration: none;
+    color: black;
+    width: 50%;
 }
