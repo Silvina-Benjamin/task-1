@@ -1,0 +1,102 @@
+*{
+    margin: 0px 0px 0px 5px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url(./img/design1_image1.jpg);
+    background-position: center;
+    background-size: cover;
+    height:200px;
+    margin: 15px;
+    width: 95vmax;
+}
+
+header h1{
+    padding: 5px;
+    z-index: 1;
+    width: 95vmax;
+}
+
+section h3{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    height: 40px;
+    text-align: center;
+    margin: 0px;
+    width: 95vmax;
+}
+
+#logo{
+    width: 80px;
+    margin-top: 5px;
+    position: relative;
+    bottom: 80px;
+    left: 90%;
+    z-index: 1;
+}
+
+a{
+    display: block;
+    padding: 10px 5px 5px 5px;
+    margin: 10px;
+}
+
+.home h4{
+font-style:normal;
+margin-top: 20px;
+padding-left: 10px;
+}
+
+.home>p{
+    font-style: italic;
+    margin-top: 1px;
+    padding-left: 15px;
+}
+
+article{
+    display: inline;
+    width: 95vmax;
+}
+
+.contenido{
+    position: relative;
+    left: 150px;
+    bottom: 150px;
+}
+
+.about h4{
+    font-style:normal;
+    margin-top: 20px;
+}
+    
+.about p{
+    margin-top: 1px;
+    padding-left: 15px;
+    text-indent: 30px;
+}
+
+.contact p{
+    padding-left: 15px;
+    margin-top: 30px;
+}
+
+.contenido a{
+    padding-left: 15px;
+    margin-top: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+#home{
+    width: 85vmax;
+}
+#about{
+    width: 85vmax;
+}
+#contact{
+    width: 85vmax;
+}

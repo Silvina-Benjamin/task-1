@@ -1,0 +1,121 @@
+*{
+    margin: 0px 0px 0px 10px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(185, 178, 178);
+}
+#logo{
+    width: 200px;
+    margin-top: 5px;
+    transform: translateX(600px) translateY(50px);
+    z-index: 2;
+    background-color: white;
+    opacity: 0.8; 
+    border: black solid;
+    border-radius: 30%;
+}  
+
+header h1{
+    margin: 10px 0px 5px 20px;
+    width: 85vw;
+    text-align: center;
+}
+.titulo{
+    position: absolute;
+
+}
+
+nav{
+    background-image: url(./img/design1_image1.jpg);
+    background-position: center;
+    opacity: 0.5;
+    background-size: cover;
+    height:200px;
+    width: 90vw;
+    margin: 30px;
+}
+
+nav>a{
+    display: inline;
+    text-decoration: none;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10%;
+    margin: 30px;
+    position: relative;
+    left: 40%;
+    bottom: 10px;
+    z-index: 1;
+}
+
+.boton{
+    background-color:yellow;
+    border-radius: 50%;
+    color: black; 
+}
+.boton-activo{
+    background-color:black;
+    color: yellow; 
+    border-color: yellow;
+}
+
+section h3{
+    background-color: black;
+    color: yellow;
+    transform: translateX(30px) translateY(220px);
+    width: 150px;
+    min-height: 50px;
+    text-align: right;
+}
+
+.home h4{
+    font-style:normal;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.home>p{
+    font-style: italic;
+    margin-top: 1px;
+    padding-left: 15px;
+}
+
+#home{
+    transform: translateX(100px) translateY(90px);
+    width: 70vmax;
+    position: absolute;
+} 
+
+.about p{
+    margin-top: 10px;
+    padding-left: 15px;
+    text-indent: 30px;
+} 
+.about h4{
+    margin-top: 20px;
+}
+#about{
+    transform: translateX(100px) translateY(90px);
+    width: 80vmax;
+    position: absolute;
+}
+
+#contact{
+    transform: translateX(100px) translateY(90px);
+    width: 70vmax;
+    position: absolute;
+}
+
+.contact p{
+    padding-left: 15px;
+    margin-top: 30px;
+    width: 50%;
+}
+
+.contenido a{
+    padding-left: 15px;
+    margin-top: 30px;
+    text-decoration: none;
+    color: black;
+}
