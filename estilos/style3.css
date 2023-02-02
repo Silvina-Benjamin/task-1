@@ -1,0 +1,286 @@
+*{
+    margin: 0px 0px 0px 10px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(163, 184, 137);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+header h1{
+    margin: 10px 0px 5px 20px;
+    width: 85vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size:xx-large;
+}
+.titulo{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(350px);
+    position: absolute;
+    justify-content: center;
+    align-items: flex-end;
+}
+h3{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: black;
+    color: yellow;
+    width: 50px;
+    min-height: 50px;
+    text-align: right;
+    z-index: 3;
+    font-size: larger;
+}
+h4{
+    font-size: larger;
+}
+p{
+    font-size: larger;
+}
+
+.contenedor{
+    width: 85%;
+    height: 400px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    transform: translateY(-50px);
+}
+
+.logo{
+    width: 200px;
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    border: black solid;
+    border-radius: 30%;
+}   
+
+nav{
+    background-image: url("../img/design1_image1.jpg");
+    opacity: 0.5;
+    background-size: cover;
+    height:300px;
+    width: 90vw;
+    margin: 50px 10px 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+nav>a{
+    display: inline;
+    text-decoration: none;
+    opacity: 1;
+    z-index: 2;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10%;
+    margin: 30px;
+    position: sticky;
+    top:10px
+}
+
+.boton{
+    background-color:yellow;
+    color: black; 
+}
+.boton-activo{
+    background-color:black;
+    color: yellow; 
+    border-color: yellow;
+}
+
+#home{
+    margin-top: 150px;
+    margin-left: 200px;
+} 
+
+.section-home h4{
+    font-style:normal;
+    margin-top: 20px;
+    padding-left: 10px;
+    justify-content: flex-start;
+    text-align: start
+}
+
+.section-home p{
+    font-style: italic;
+    margin-top: 1px;
+    padding-left: 30px;
+}
+
+#about{
+    margin-top: 100px;
+    width: 85%;
+    position: absolute;
+    margin-left: 50px;
+}
+.about p{
+    margin-top: 10px;
+    padding-left: 15px;
+    text-indent: 30px;
+} 
+.about h4{
+    margin-top: 20px;
+}
+
+#contact{
+    margin-top: 100px;
+    width: 90%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 200px;
+}
+
+#contact p{
+    padding-left: 15px;
+    margin-top: 30px;
+}
+#contact a{
+    padding-left: 15px;
+    margin-top: 30px;
+}
+
+.contenido a{
+    padding-left: 15px;
+    margin-top: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+#rules{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+article{
+    margin-top: 150px;
+}
+
+.game-information h2{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.game-information p{
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+
+.pie-game{
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+
+}
+
+.title-rules{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sportsmanship{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width:90%
+}
+.sportsmanship p{
+    text-indent: 50px;
+}
+.ihf-field-regulations{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+}
+.all-play{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width:90%;
+}
+.rules h4{
+    font-weight:bold;
+    font-size: large;
+    margin: 20px;
+}
+
+.numeros li{
+    margin-left:10px;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: large;
+}
+
+.vinetas{
+    padding: 20px;
+    font-size: large;
+    line-height: 30px;
+    padding-left: 30px;
+    margin-left: 50px;
+    width: 90%;
+}
+.letras{
+    line-height: 5px;
+}
+.numeros{
+    line-height: 30px;
+}
+#subrayado{
+    text-decoration:underline;
+}
+#all-play{
+    text-indent: 50px;
+    width: 90%;
+}
+
+table{
+    width: 50%;
+    align-self: center;
+    transform: translateX(50%);
+    font-size: large;
+
+}
+th, td{
+    text-align: left;
+    vertical-align: center;
+    padding: 5px;
+}
+.letras{
+    line-height: 0px;
+}
+.pie-game{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 90%;
+}
