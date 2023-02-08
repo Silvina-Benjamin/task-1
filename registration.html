@@ -10,23 +10,36 @@
 </head>
 <body>
     <header>
-        <h1>Registration Form</h1>
+        <h1>Mighty Ducks Hockey League</h1>
     </header>    
     <main>
-        <form action="./show-data.html" method="get">
+        <section class="registration">
+            <h3 class="titulo">Registration Form</h3>
+            <div class="contenedor">
+                <img class="logo" src="./img/Logo_Mighty_ducks-01.png" alt="logo" >
+            </div>
+                <nav id="nav-registration">
+                    <a href="./" class="boton">Home</a>
+                    <a href="./about.html" class="boton">About MDHL</a>
+                    <a href="./contact.html" class="boton">Contact</a>
+                    <a href="./rules.html" class="boton">Rules</a>
+                    <a href="./game-information.html" class="boton">Game Information</a>
+                    <a href="./registration.html" class="boton-activo">Registration</a>
+                </nav>
+                <form action="./show-data.html" method="get" class="formulario">
             <fieldset>
                 <label>
                     Player's First Name
                     <input type="text" name="name" id="name" required>
                 </label>
                 <label for="last-name">Last Name</label>
-                <input type="text" name="last-name" id="last-name" required>
+                <input type="text" name="last-name" id="last-name" required><br>
                 <label for="adress">Street Address</label>    
-                <input type="text" name="adress" id="adress" required>
+                <input type="text" name="adress" id="adress" required><br>
                 <label for="city">City</label>
                 <input type="text" name="city" id="city" required>
                 <label for="zip-code">Zip Code</label>
-                <input type="number" name="zip-code" id="zip-code" required>
+                <input type="number" name="zip-code" id="zip-code" required><br>
                 <label for="birthday">Birth Day</label>
                 <input type="date" name="birthday" id="birthday" required>
             </fieldset>
@@ -40,62 +53,62 @@
             </fieldset>
             <fieldset>
                 <legend>Grade:</legend>
-            <input type="radio" name="grade" id="pre-school">
-            <label for="pre-school">Pre-School</label>
-            <input type="radio" name="grade" id="1st" required>
+            <input type="radio" name="grade" id="pre-school" value="pre-school">
+            <label for="pre-school">Pre-School</label> 
+            <input type="radio" name="grade" id="1st" value="1st" required>
             <label for="1st">1st</label>
-            <input type="radio" name="grade" id="2nd" required>
+            <input type="radio" name="grade" id="2nd" value="2nd" required>
             <label for="2nd">2nd</label>
-            <input type="radio" name="grade" id="3rd" required>
+            <input type="radio" name="grade" id="3rd" value="3rd" required>
             <label for="3rd">3rd</label>
-            <input type="radio" name="grade" id="4rd" required>
+            <input type="radio" name="grade" id="4th" value="4th" required>
             <label for="4rd">4rd</label>
-            <input type="radio" name="grade" id="5th" required>
+            <input type="radio" name="grade" id="5th" value="5th" required>
             <label for="5th">5th</label>
             </fieldset>
             <fieldset>
                 <legend>Which elementary school do you live near?</legend>
-                <label>Closest School: </label>
-                <input type="radio" name="school" id="AJ" required>
+                <label>Closest School: </label><br>
+                <input type="radio" name="school" id="AJ" value="AJ" required>
                 <label for="AJ">AJ Katzenmaier</label>
-                <input type="radio" name="school" id="greenbay" required>
-                <label for="greenbay">Greenbay</label>
-                <input type="radio" name="school" id="howard" required>
-                <label for="howard">Howard A Yeager</label>
-                <input type="radio" name="school" id="marjorie" required>
-                <label for="marjorie">Marjorie P Hart</label>
-                <input type="radio" name="school" id="north" required>
+                <input type="radio" name="school" id="greenbay" value="greenbay" required>
+                <label for="greenbay">Greenbay</label><br>
+                <input type="radio" name="school" id="howard" value="howard" required>
+                <label for="howard">Howard A Yeager</label> 
+                <input type="radio" name="school" id="marjorie" value="marjorie" required>
+                <label for="marjorie">Marjorie P Hart</label><br>
+                <input type="radio" name="school" id="north" value="north" required>
                 <label for="north">North Elementary</label>
-                <input type="radio" name="school" id="south" required>
+                <input type="radio" name="school" id="south" value="south" required>
                 <label for="south">South Elemenentary</label>
             </fieldset>
             <fieldset>
                 <legend>What position(s) do you normally play? (check all that apply)</legend>
                 <label for="foward">Foward</label>
-                <input type="checkbox" name="foward" id="foward" >
+                <input type="checkbox" name="foward" id="foward" value="foward" >
                 <label for="defense">Defense</label>
-                <input type="checkbox" name="defense" id="defense" >
+                <input type="checkbox" name="defense" id="defense" value="defense"> <br>
                 <label for="midfield">Midfield</label>
-                <input type="checkbox" name="midfield" id="midfield" >
+                <input type="checkbox" name="midfield" id="midfield" value="midfield"  >
                 <label for="goalkeeper">Goalkeeper</label>
-                <input type="checkbox" name="goalkeeper" id="goalkeeper" >
+                <input type="checkbox" name="goalkeeper" id="goalkeeper" value="goalkeeper">
             </fieldset>
             <fieldset>
                 <legend>Uniform Size: </legend>
                 <label for="youth-small">Youth Small</label>
-                <input type="radio" name="size" id="youth-small" required>
+                <input type="radio" name="size" id="youth-small" value="youth-small" required>
                 <label for="youth-medium">Youth Medium</label>
-                <input type="radio" name="size" id="youth-medium" required>
+                <input type="radio" name="size" id="youth-medium" value="youth-medium" required>
                 <label for="youth-large">Youth Large</label>
-                <input type="radio" name="size" id="youth-large" required>
+                <input type="radio" name="size" id="youth-large" value="youth-large" required>
                 <label for="small">Small</label>
-                <input type="radio" name="size" id="small" required>
+                <input type="radio" name="size" id="small" value="small" required> <br>
                 <label for="medium">Medium</label>
-                <input type="radio" name="size" id="medium" required>
+                <input type="radio" name="size" id="medium" value="medium" required>
                 <label for="large">Large</label>
-                <input type="radio" name="size" id="large" required>
+                <input type="radio" name="size" id="large" value="large" required>
                 <label for="extra-large">Extra Large</label>
-                <input type="radio" name="size" id="extra-large" required>
+                <input type="radio" name="size" id="extra-large" value="extra-large" required>
             </fieldset>
             <fieldset>
                 <p>
@@ -107,9 +120,9 @@
                 <label for="date">Date: </label>
                 <input type="date" name="date" id="date" required>
             </fieldset>
-            <input type="submit" value="Submit" required>
-            
+            <input type="submit" value="Submit">
         </form>
+        </section>
     </main>
 </body>
 </html>
